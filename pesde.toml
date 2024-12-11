@@ -1,0 +1,14 @@
+name = "jiwonz/luaup"
+version = "0.1.0"
+description = "A lossless Luau parser written in Luau by jackdotink. Uploaded for pesde"
+authors = ["jackdotink"]
+repository = "https://github.com/jackdotink/luaup"
+license = "MIT"
+includes = ["lossless", "lib.luau", "LICENSE", "pesde.toml", "README.md"]
+
+[target]
+environment = "luau"
+lib = "lib.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
